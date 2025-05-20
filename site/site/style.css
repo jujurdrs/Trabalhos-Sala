@@ -1,3 +1,4 @@
+
 body {
     background-color: #242424;
 }
@@ -8,11 +9,23 @@ body {
 
 .texto-sobre-imagem {
     position: absolute; /* Permite posicionar o texto dentro do contêiner */
-    top: 50%; /* Posiciona o texto no centro vertical */
-    left: 20%; /* Posiciona o texto no centro horizontal */
+    top: 60%; /* Posiciona o texto no centro vertical */
+    left: 15%; /* Posiciona o texto no centro horizontal */
     transform: translate(-50%, -50%); /* Corrige a posição para o centro exato */
     /* Estilos para o texto (cor, tamanho, etc.) */
     color: white; /* Exemplo de cor branca */
     padding: 20px; /* Espaçamento interno no texto */
     font-style:initial;
+}
+
+.melhor {
+    color: white;
+}
+
+.subtitulo {
+    color: white;
+}
+
+.Filme {
+    border-radius: 10%;
 }
