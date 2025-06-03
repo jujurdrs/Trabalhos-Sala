@@ -1,0 +1,53 @@
+
+body {
+    background-color: #242424;
+}
+
+.imagem-container {
+    position: relative; /* Importante para posicionamento absoluto do texto */
+    /* Outras propriedades para o contêiner (se necessário) */
+}
+
+.texto-sobre-imagem {
+    position: absolute; /* Permite posicionar o texto dentro do contêiner */
+    top: 60%; /* Posiciona o texto no centro vertical */
+    left: 150px; /* Posiciona o texto no centro horizontal */
+    transform: translate(-50%, -50%); /* Corrige a posição para o centro exato */
+    /* Estilos para o texto (cor, tamanho, etc.) */
+    color: white; /* Exemplo de cor branca */
+    padding: 20px; /* Espaçamento interno no texto */
+    font-style:initial;
+    font-size: x-large;
+}
+
+.texto-sobre-imagem2 {
+    position: absolute; /* Permite posicionar o texto dentro do contêiner */
+    top: 68%; /* Posiciona o texto no centro vertical */
+    left: 15%; /* Posiciona o texto no centro horizontal */
+    transform: translate(-50%, -50%); /* Corrige a posição para o centro exato */
+    /* Estilos para o texto (cor, tamanho, etc.) */
+    color: white; /* Exemplo de cor branca */
+    padding: 20px; /* Espaçamento interno no texto */
+    font-style:initial;
+    margin-right: 60%;
+}
+
+
+.melhor {
+    color: white;
+}
+
+.subtitulo {
+    color: white;
+}
+
+.Filme {
+    border-radius: 10%;
+    border-color: white;
+}
+
+.melhores-avaliações {
+    display: inline-block;
+}
+
+
