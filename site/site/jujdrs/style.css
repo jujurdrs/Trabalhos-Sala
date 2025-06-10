@@ -33,21 +33,22 @@ body {
 }
 
 
-.melhor {
-    color: white;
-}
-
 .subtitulo {
     color: white;
 }
 
-.Filme {
-    border-radius: 10%;
-    border-color: white;
-}
-
-.melhores-avaliações {
-    display: inline-block;
+.filmes {
+    background-color: #242424;
+    
 }
 
 
+.menu {
+    background-color: #242424;
+}
+
+.link-menu {
+    text-decoration: none;
+    color: white;
+    margin-right: 62px;
+}
