@@ -11,8 +11,8 @@ body {
 .texto-sobre-imagem {
     position: absolute; /* Permite posicionar o texto dentro do contêiner */
     top: 60%; /* Posiciona o texto no centro vertical */
-    left: 150px; /* Posiciona o texto no centro horizontal */
-    transform: translate(-50%, -50%); /* Corrige a posição para o centro exato */
+    left: 20px; /* Posiciona o texto no centro horizontal */
+    transform: translate(5%, -50%); /* Corrige a posição para o centro exato */
     /* Estilos para o texto (cor, tamanho, etc.) */
     color: white; /* Exemplo de cor branca */
     padding: 20px; /* Espaçamento interno no texto */
@@ -23,13 +23,13 @@ body {
 .texto-sobre-imagem2 {
     position: absolute; /* Permite posicionar o texto dentro do contêiner */
     top: 68%; /* Posiciona o texto no centro vertical */
-    left: 15%; /* Posiciona o texto no centro horizontal */
-    transform: translate(-50%, -50%); /* Corrige a posição para o centro exato */
+    left: 15px; /* Posiciona o texto no centro horizontal */
+    transform: translate(5%, -50%); /* Corrige a posição para o centro exato */
     /* Estilos para o texto (cor, tamanho, etc.) */
     color: white; /* Exemplo de cor branca */
     padding: 20px; /* Espaçamento interno no texto */
     font-style:initial;
-    margin-right: 60%;
+    margin-right: 80%;
 }
 
 
@@ -51,4 +51,9 @@ body {
     text-decoration: none;
     color: white;
     margin-right: 62px;
+}
+
+
+.Melhores {
+    color: white;
 }
